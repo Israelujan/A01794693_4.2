@@ -1,0 +1,52 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P2> python -m pylint convert_numbers.py
+************* Module convert_numbers
+convert_numbers.py:14:0: C0301: Line too long (102/100) (line-too-long)
+convert_numbers.py:25:0: C0301: Line too long (103/100) (line-too-long)
+convert_numbers.py:30:0: C0301: Line too long (112/100) (line-too-long)
+convert_numbers.py:34:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:37:0: C0301: Line too long (107/100) (line-too-long)
+convert_numbers.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:59:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+-----------------------------------
+Your code has been rated at 7.45/10
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P2> python -m pylint convert_numbers.py
+************* Module convert_numbers
+convert_numbers.py:3:0: C0301: Line too long (103/100) (line-too-long)
+convert_numbers.py:31:0: C0301: Line too long (103/100) (line-too-long)
+convert_numbers.py:40:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:48:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:54:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:60:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:62:0: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 8.00/10 (previous run: 7.45/10, +0.55)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de python -m pylint convert_numbers.py
+************* Module convert_numbers
+convert_numbers.py:55:0: C0303: Trailing whitespace (trailing-whitespace)
+convert_numbers.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 9.56/10 (previous run: 8.00/10, +1.56)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P2> python -m pylint convert_numbers.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.56/10, +0.44)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P2>

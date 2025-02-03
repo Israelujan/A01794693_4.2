@@ -1,0 +1,182 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> ls
+
+
+    Directory: D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2
+    Ejercicio de programación 1\A01794693_4.2\P1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/2/2025   6:03 PM           2811 computeStatistics.py
+-a----          2/2/2025   6:05 PM           1418 StatisticsResults.txt
+-a----          2/2/2025   6:05 PM           1507 TC1.txt
+-a----          2/2/2025   1:11 PM           7496 TC2.txt
+-a----          2/2/2025   1:11 PM          47710 TC3.txt
+-a----          2/2/2025   1:11 PM          72375 TC4.txt
+-a----          2/2/2025   1:11 PM           1171 TC5.txt
+-a----          2/2/2025   1:11 PM          74143 TC6.txt
+-a----          2/2/2025   1:11 PM         316238 TC7.txt
+
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:28:0: C0301: Line too long (128/100) (line-too-long)
+computeStatistics.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:32:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:44:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:65:0: C0304: Final newline missing (missing-final-newline)
+computeStatistics.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:38:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 7.45/10
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:28:0: C0301: Line too long (128/100) (line-too-long)
+computeStatistics.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:32:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:43:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.87/10 (previous run: 7.45/10, +0.43)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:28:0: C0301: Line too long (128/100) (line-too-long)
+computeStatistics.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:32:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:43:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.87/10 (previous run: 7.87/10, +0.00)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:32:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:38:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:48:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:54:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.09/10 (previous run: 7.87/10, +0.21)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de python -m pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:33:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:35:29: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:41:19: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:43:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.72/10 (previous run: 8.09/10, +0.64)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:34:29: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:40:19: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.94/10 (previous run: 8.72/10, +0.21)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de sopython -m pylint computeStatistics.py4.2 Ejercicio de programación 1\A01794693_4.2\P1>
+************* Module computeStatistics
+computeStatistics.py:40:29: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:46:19: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:47:28: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.15/10 (previous run: 8.94/10, +0.21)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:40:29: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:46:19: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:47:28: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.15/10 (previous run: 9.15/10, +0.00)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:40:29: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:46:19: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:47:28: C0303: Trailing whitespace (trailing-whitespace)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.15/10 (previous run: 9.15/10, +0.00)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint compute_statistics.py
+************* Module compute_statistics
+compute_statistics.py:40:29: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:46:19: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:47:28: C0303: Trailing whitespace (trailing-whitespace)
+
+-----------------------------------
+Your code has been rated at 9.36/10
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint compute_statistics.py
+************* Module compute_statistics
+compute_statistics.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:38:0: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:44:0: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:52:0: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:54:0: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:60:0: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:80:0: C0304: Final newline missing (missing-final-newline)
+
+------------------------------------------------------------------
+Your code has been rated at 8.30/10 (previous run: 9.36/10, -1.06)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint compute_statistics.py
+************* Module compute_statistics
+compute_statistics.py:40:29: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:46:19: C0303: Trailing whitespace (trailing-whitespace)
+compute_statistics.py:47:28: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 9.36/10 (previous run: 8.30/10, +1.06)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> ^C
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint compute_statistics.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.36/10, +0.64)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P1> python -m pylint compute_statistics.pygit push origin maingit push origin maingit push origin main

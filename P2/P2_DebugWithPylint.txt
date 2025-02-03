@@ -1,0 +1,73 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P3> Rename-Item wordCount.py word_count.py
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P3> python word_count.py TC1.txt TC2.txt TC3.txt TC4.txt TC5.txt
+Resultados guardados en WordCountResults_TC1.txt.txt
+Resultados guardados en WordCountResults_TC2.txt.txt
+Resultados guardados en WordCountResults_TC3.txt.txt
+Resultados guardados en WordCountResults_TC4.txt.txt
+Resultados guardados en WordCountResults_TC5.txt.txt
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P3> Remove-Item WordCountResults_TC*.txt -ErrorAction Ignore
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P3> python word_count.py TC1.txt TC2.txt TC3.txt TC4.txt TC5.txt
+Resultados guardados en WordCountResults_TC1.txt
+Resultados guardados en WordCountResults_TC2.txt
+Resultados guardados en WordCountResults_TC3.txt
+Resultados guardados en WordCountResults_TC4.txt
+Resultados guardados en WordCountResults_TC5.txt
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P3> python -m pylint word_count.py
+************* Module word_count
+word_count.py:7:0: C0301: Line too long (101/100) (line-too-long)
+word_count.py:12:0: C0301: Line too long (104/100) (line-too-long)
+word_count.py:28:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:47:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:49:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+-----------------------------------
+Your code has been rated at 7.30/10
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P3> python -m pylint word_count.py
+************* Module word_count
+word_count.py:13:0: C0301: Line too long (101/100) (line-too-long)
+word_count.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:49:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:52:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:54:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:56:0: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 7.84/10 (previous run: 7.30/10, +0.54)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de python -m pylint word_count.py3>
+************* Module word_count
+word_count.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:49:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:53:0: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 8.92/10 (previous run: 7.84/10, +1.08)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P3> python -m pylint word_count.py
+************* Module word_count
+word_count.py:48:0: C0303: Trailing whitespace (trailing-whitespace)
+word_count.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 9.46/10 (previous run: 8.92/10, +0.54)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P3> python -m pylint word_count.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.46/10, +0.54)
+
+PS D:\Users\Israel\Downloads\Maestria\Trimestre_6\Pruebas de software y aseguramiento de la calidad\4.2 Ejercicio de programación 1\A01794693_4.2\P3>
